@@ -22,10 +22,7 @@ with open(os.path.join(path, 'hqsbase/__version__.py')) as f:
     lines = f.readlines()
 __version__ = lines[-1].strip().split("'")[1].strip()
 
-print('We need to write a license file')
 License = 'Apache-2.0'
-""" with open(os.path.join(path, LICENSE')) as file:
-    license = file.read() """
 
 install_requires = [
     'h5py',
