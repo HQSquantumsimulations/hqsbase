@@ -1,0 +1,10 @@
+qoqo_calculator_pyo3>=0.1.4
+h5py
+pandas
+pytest
+tables
+pyyaml
+sphinx>=1.4
+pygments
+recommonmark
+sphinx_rtd_theme
