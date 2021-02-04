@@ -10,8 +10,8 @@
 # or implied. See the License for the specific language governing permissions and limitations under
 # the License.
 """Calculator functions handling HQS symbolic values"""
-from hqsbase.calculator.calculator_float import CalculatorFloat, IntoCalculatorFloat
-from hqsbase.calculator.calculator_complex import CalculatorComplex, IntoCalculatorComplex
+from hqsbase.calculator import CalculatorFloat, IntoCalculatorFloat
+from hqsbase.calculator import CalculatorComplex, IntoCalculatorComplex
 
 
 def complex_isclose(val: IntoCalculatorComplex,
