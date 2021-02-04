@@ -40,7 +40,7 @@ setup(name='hqsbase',
       packages=find_packages(exclude=('docs')),
       author='HQS Quantum Simulations GmbH',
       author_email='info@quantumsimulations.de',
-      url='quantumsimulations.de',
+      url='https://quantumsimulations.de',
       license=License,
       install_requires=install_requires,
       )
