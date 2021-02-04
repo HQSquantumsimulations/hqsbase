@@ -23,7 +23,7 @@ from hqsbase import calculator
     (-1, -1,),
     (2, 1, ),
     (-3, -1,),
-    (0, 0, ),
+    (0, 1, ),
 ])
 def test_float_sign(initial):
     t = calculator.float_sign(initial[0])
