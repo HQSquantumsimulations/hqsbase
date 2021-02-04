@@ -28,16 +28,16 @@
 
 from typing import Union
 
-from qoqo_calculator_pyo3 import (
+from qoqo_calculator_py03 import (
     parse_string,
     Calculator
 )
 
-from qoqo_calculator_pyo3 import (
+from qoqo_calculator_py03 import (
     CalculatorFloat,
 )
 
-from qoqo_calculator_pyo3 import (
+from qoqo_calculator_py03 import (
     CalculatorComplex,
 )
 IntoCalculatorFloat = Union[str, float, CalculatorFloat]
