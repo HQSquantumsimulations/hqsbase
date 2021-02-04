@@ -8,8 +8,8 @@ on:
 
 jobs:
   check_linting_and_tests:
-    name: unittests_check-${{ matrix.combinations.runs_on }}
-    runs-on: ${{ matrix.combinations.runs_on }}
+    name: unittests_check
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.7, 3.8, 3.9]
