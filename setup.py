@@ -30,7 +30,7 @@ install_requires = [
     'pytest',
     'tables',
     'pyyaml',
-    'qoqo_calculator_pyo3>=0.1.4'
+    'qoqo_calculator_py03>=0.1.4'
 ]
 
 setup(name='hqsbase',
