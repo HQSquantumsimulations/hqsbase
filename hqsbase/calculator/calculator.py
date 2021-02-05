@@ -22,7 +22,7 @@ def complex_isclose(val: IntoCalculatorComplex,
     Args:
         val: complex value
         comparison: value that is compared to
-       
+
 
     Returns:
         bool
