@@ -16,22 +16,20 @@ from hqsbase.calculator import CalculatorComplex, IntoCalculatorComplex
 
 def complex_isclose(val: IntoCalculatorComplex,
                     comparison: IntoCalculatorComplex,
-                    rtol: float = 1e-05,
-                    atol: float = 1e-08) -> bool:
+                    ) -> bool:
     """Complex is_close comparison of CalculatorComplexs handling real and imaginary parts.
 
     Args:
         val: complex value
         comparison: value that is compared to
-        rtol: Relative tolerance for numpy comparison
-        atol: Absolute tolerance for numpy comparison
+       
 
     Returns:
         bool
 
     """
     value = CalculatorComplex(val)
-    return value.isclose(comparison, rtol, atol)
+    return value.isclose(comparison)
 
 
 def float_sign(val: IntoCalculatorFloat) -> CalculatorFloat:

@@ -10,4 +10,4 @@
 # or implied. See the License for the specific language governing permissions and limitations under
 # the License.
 """Define version for setup.py and docs"""
-__version__ = 'v0.7.8'
+__version__ = 'v0.7.9'
